@@ -17,20 +17,10 @@ public class ChargerController {
 
     @GetMapping("/chargers")
     public List<ResponseObject.ChargeDevice> getChargers(@RequestParam float lat, @RequestParam float lng) {
-        System.out.println(lat);
-        System.out.println(lng);
         String uri = "https://chargepoints.dft.gov.uk/api/retrieve/registry/lat/" + lat + "/long/" + lng + "/limit/3/dist/10/format/json";
-        System.out.println(uri);
         RestTemplate restTemplate = new RestTemplate();
         String result = restTemplate.getForObject(uri, String.class);
-        System.out.println(result);
-
-        // Import the ObjectMapper class
-
-// Create an instance of the ObjectMapper
         ObjectMapper mapper = new ObjectMapper();
-
-// Parse the JSON string into an object
         ResponseObject chargers = null;
         try {
             chargers = mapper.readValue(result, ResponseObject.class);
