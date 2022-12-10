@@ -1,0 +1,217 @@
+{
+  "Scheme": {
+    "SchemeCode": "NA",
+    "SchemeData": {
+      "OrganisationName": "NA",
+      "Website": "NA",
+      "TelephoneNo": "NA"
+    }
+  },
+  "ChargeDevice": [
+    {
+      "ChargeDeviceId": "a63991772e7800fd60a7aaa9ea698cc9",
+      "ChargeDeviceRef": "GP11926",
+      "ChargeDeviceName": "\tMorrisons Amble",
+      "ChargeDeviceText": null,
+      "ChargeDeviceLocation": {
+        "Latitude": "55.326762",
+        "Longitude": "-1.582318",
+        "Address": {
+          "SubBuildingName": null,
+          "BuildingName": "Morrison Goole",
+          "BuildingNumber": "Wm Morrison Supermarkets PLC",
+          "Thoroughfare": " Coquet Enterprise Park",
+          "Street": "Amble ",
+          "DoubleDependantLocality": null,
+          "DependantLocality": null,
+          "PostTown": "Morpeth",
+          "County": "Northumberland",
+          "PostCode": "NE65 0PE",
+          "Country": "gb",
+          "UPRN": ""
+        },
+        "LocationShortDescription": null,
+        "LocationLongDescription": ""
+      },
+      "ChargeDeviceManufacturer": "EV Tronic",
+      "ChargeDeviceModel": "QC50 Rapid",
+      "PublishStatusID": "1",
+      "DateCreated": "2019-12-06 09:21:41",
+      "DateUpdated": "2020-04-02 17:05:56",
+      "Attribution": "The GeniePoint Network",
+      "DateDeleted": "n/a",
+      "Connector": [
+        {
+          "ConnectorId": "1",
+          "ConnectorType": "Type 2 Mennekes (IEC62196)",
+          "RatedOutputkW": "22.0",
+          "RatedOutputVoltage": "400",
+          "RatedOutputCurrent": "32",
+          "ChargeMethod": "Three Phase AC",
+          "ChargeMode": "3",
+          "ChargePointStatus": "In service",
+          "TetheredCable": "0",
+          "Information": "",
+          "Validated": "0"
+        },
+        {
+          "ConnectorId": "2",
+          "ConnectorType": "JEVS G105 (CHAdeMO) DC",
+          "RatedOutputkW": "50.0",
+          "RatedOutputVoltage": "400",
+          "RatedOutputCurrent": "125",
+          "ChargeMethod": "DC",
+          "ChargeMode": "4",
+          "ChargePointStatus": "In service",
+          "TetheredCable": "1",
+          "Information": "",
+          "Validated": "0"
+        },
+        {
+          "ConnectorId": "3",
+          "ConnectorType": "CCS Type 2 Combo (IEC62196)",
+          "RatedOutputkW": "50.0",
+          "RatedOutputVoltage": "400",
+          "RatedOutputCurrent": "125",
+          "ChargeMethod": "DC",
+          "ChargeMode": "4",
+          "ChargePointStatus": "In service",
+          "TetheredCable": "1",
+          "Information": "",
+          "Validated": "0"
+        }
+      ],
+      "DeviceOwner": {
+        "OrganisationName": "EV Solutions",
+        "SchemeCode": "evsolut",
+        "Website": "http://www.chargepointservices.com/",
+        "TelephoneNo": "02035984087"
+      },
+      "DeviceController": {
+        "OrganisationName": "EV Solutions",
+        "SchemeCode": "evsolut",
+        "Website": "http://www.chargepointservices.com/",
+        "TelephoneNo": "02035984087"
+      },
+      "DeviceAccess": [],
+      "DeviceNetworks": "The GeniePoint Network",
+      "ChargeDeviceStatus": "In service",
+      "PublishStatus": "Published",
+      "DeviceValidated": "0",
+      "RecordModerated": "Y",
+      "RecordLastUpdated": "2020-04-02 17:05:56",
+      "RecordLastUpdatedBy": "EV Solutions",
+      "PaymentRequiredFlag": true,
+      "PaymentDetails": "Visit www.geniepoint.co.uk",
+      "SubscriptionRequiredFlag": false,
+      "SubscriptionDetails": "",
+      "ParkingFeesFlag": false,
+      "ParkingFeesDetails": "",
+      "ParkingFeesUrl": "Visit www.geniepoint.co.uk",
+      "AccessRestrictionFlag": false,
+      "AccessRestrictionDetails": "",
+      "PhysicalRestrictionFlag": false,
+      "PhysicalRestrictionText": "",
+      "OnStreetFlag": false,
+      "LocationType": "Retail car park",
+      "Bearing": null,
+      "Accessible24Hours": false
+    },
+    {
+      "ChargeDeviceId": "06f2db09b2e09cec42ced4b0d0fe2da3",
+      "ChargeDeviceRef": "GP12068",
+      "ChargeDeviceName": "\tAspire in the Park Charger 2",
+      "ChargeDeviceText": null,
+      "ChargeDeviceLocation": {
+        "Latitude": "53.696250",
+        "Longitude": "-1.322032",
+        "Address": {
+          "SubBuildingName": null,
+          "BuildingName": "",
+          "BuildingNumber": "",
+          "Thoroughfare": "Park Lane",
+          "Street": "Pontefract Park",
+          "DoubleDependantLocality": null,
+          "DependantLocality": null,
+          "PostTown": "Pontefract",
+          "County": "West Yorkshire",
+          "PostCode": "WF8 4RA",
+          "Country": "gb",
+          "UPRN": ""
+        },
+        "LocationShortDescription": null,
+        "LocationLongDescription": ""
+      },
+      "ChargeDeviceManufacturer": "Alfen",
+      "ChargeDeviceModel": "Eve 22KW",
+      "PublishStatusID": "1",
+      "DateCreated": "2022-12-06 14:52:59",
+      "DateUpdated": "2022-12-06 14:52:59",
+      "Attribution": "The GeniePoint Network",
+      "DateDeleted": "n/a",
+      "Connector": [
+        {
+          "ConnectorId": "1",
+          "ConnectorType": "Type 2 Mennekes (IEC62196)",
+          "RatedOutputkW": "22.0",
+          "RatedOutputVoltage": "400",
+          "RatedOutputCurrent": "32",
+          "ChargeMethod": "Three Phase AC",
+          "ChargeMode": "3",
+          "ChargePointStatus": "In service",
+          "TetheredCable": "0",
+          "Information": "",
+          "Validated": "0"
+        },
+        {
+          "ConnectorId": "2",
+          "ConnectorType": "Type 2 Mennekes (IEC62196)",
+          "RatedOutputkW": "22.0",
+          "RatedOutputVoltage": "400",
+          "RatedOutputCurrent": "32",
+          "ChargeMethod": "Three Phase AC",
+          "ChargeMode": "3",
+          "ChargePointStatus": "In service",
+          "TetheredCable": "0",
+          "Information": "",
+          "Validated": "0"
+        }
+      ],
+      "DeviceOwner": {
+        "OrganisationName": "EV Solutions",
+        "SchemeCode": "evsolut",
+        "Website": "http://www.chargepointservices.com/",
+        "TelephoneNo": "02035984087"
+      },
+      "DeviceController": {
+        "OrganisationName": "EV Solutions",
+        "SchemeCode": "evsolut",
+        "Website": "http://www.chargepointservices.com/",
+        "TelephoneNo": "02035984087"
+      },
+      "DeviceAccess": [],
+      "DeviceNetworks": "The GeniePoint Network",
+      "ChargeDeviceStatus": "In service",
+      "PublishStatus": "Published",
+      "DeviceValidated": "0",
+      "RecordModerated": "N",
+      "RecordLastUpdated": null,
+      "RecordLastUpdatedBy": "",
+      "PaymentRequiredFlag": true,
+      "PaymentDetails": "Visit www.geniepoint.co.uk",
+      "SubscriptionRequiredFlag": false,
+      "SubscriptionDetails": "",
+      "ParkingFeesFlag": false,
+      "ParkingFeesDetails": "",
+      "ParkingFeesUrl": "Visit www.geniepoint.co.uk",
+      "AccessRestrictionFlag": false,
+      "AccessRestrictionDetails": "",
+      "PhysicalRestrictionFlag": false,
+      "PhysicalRestrictionText": "",
+      "OnStreetFlag": false,
+      "LocationType": "Public car park",
+      "Bearing": null,
+      "Accessible24Hours": false
+    }
+  ]
+}
