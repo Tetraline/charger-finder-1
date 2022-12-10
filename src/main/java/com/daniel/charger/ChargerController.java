@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.client.RestTemplate;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import java.util.List;
+
 @RestController
 public class ChargerController {
     @GetMapping("/")
@@ -14,7 +16,7 @@ public class ChargerController {
     }
 
     @GetMapping("/chargers")
-    public String getChargers(@RequestParam float lat, @RequestParam float lng) {
+    public List<ResponseObject.ChargeDevice> getChargers(@RequestParam float lat, @RequestParam float lng) {
         System.out.println(lat);
         System.out.println(lng);
         String uri = "https://chargepoints.dft.gov.uk/api/retrieve/registry/lat/" + lat + "/long/" + lng + "/limit/3/dist/10/format/json";
@@ -36,9 +38,6 @@ public class ChargerController {
             e.printStackTrace();
         }
         return
-                chargers.getChargeDevices().get(0).getChargeDeviceName() + "///"+
-                        chargers.getChargeDevices().get(1).getChargeDeviceName() +"///"+
-                        chargers.getChargeDevices().get(2).getChargeDeviceName();
-
+                chargers.getChargeDevices();
     }
 }
